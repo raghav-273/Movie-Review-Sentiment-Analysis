@@ -1,6 +1,6 @@
-Movie Review Sentiment Analysis (Flask + VADER / sklearn)
+#Movie Review Sentiment Analysis (Flask + VADER / sklearn)
 
-Description
+#Description
 
 A simple web-based tool to classify movie reviews as Positive, Negative, or Neutral.
 Supports two backends:
