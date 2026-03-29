@@ -76,7 +76,8 @@ python app.py
 ```
 
 ### 6. Open in browser
-```bashhttp://127.0.0.1:5000
+```bash
+http://127.0.0.1:5000
 ```
 ___
 
@@ -109,6 +110,33 @@ ___
 	
 ---
 
+## 📊 Model Performance
+
+### TF-IDF + Logistic Regression
+
+| Metric     | Score  |
+|------------|--------|
+| Accuracy   | 89.74% |
+| Precision  | 89.01% |
+| Recall     | 90.85% |
+| F1-Score   | 89.92% |
+
+### 🔍 Observations
+
+- The model achieves strong performance (~90% accuracy) on the IMDB dataset  
+- Recall is slightly higher than precision, indicating effective detection of sentiment classes  
+- Balanced F1-score shows stable and reliable classification performance  
+
+---
+
+### 📌 Comparison with VADER
+
+- VADER (rule-based) performs well on short and informal text  
+- TF-IDF + Logistic Regression significantly outperforms VADER on structured movie reviews  
+- Machine learning model captures contextual patterns better than rule-based approach  
+
+---
+
 ## 📸 Results
 
 <p align="center">
@@ -118,6 +146,14 @@ ___
 <p align="center">
   <img src="images/result_SS/Screenshot_2.png" width="600"/>
 </p>
+
+---
+
+## 📄 Project Report
+
+A detailed IEEE-style report is available covering methodology, model training, and evaluation.
+
+👉 [View Full Report](reports/project_report.pdf)
 
 ---
 
